@@ -58,8 +58,7 @@
     width: 800px;
     margin: 0 auto;
     position: relative;
-    background: url('ajax-loader.gif') center center no-repeat;
-
+    /*background: url('ajax-loader.gif') center center no-repeat;*/
 }
 
 #viewer.scrolled .epub-container {
@@ -309,4 +308,25 @@ input:-webkit-autofill , textarea:-webkit-autofill, select:-webkit-autofill {
 
 input {
     background-color:transparent;
+}
+
+.md-content {
+    border-radius: 10px!important;
+}
+
+.br {
+    border-radius: 10px!important;
+}
+.playlist-active{
+    background-color: #cfd2e1
+}
+.mdui-theme-layout-dark {
+    color: #fff;
+    background-color: #424242;
+}
+@media (prefers-color-scheme: dark) {
+    .mdui-theme-layout-auto {
+        color: #fff;
+        background-color: #424242;
+    }
 }
